@@ -7,6 +7,7 @@ bountiful_botanists.sud
 clock_tower.sud
 cool_puzzle.sud
 deep_sea_divers.sud
+egg_zapping_enigma.sud
 everyone_loves_a_squeed.sud
 filling_you_with_the_power_of_whale.sud
 forest_of_illusion.sud
@@ -20,6 +21,7 @@ know_your_monsters_likes.sud
 larvaluss_puzzle.sud
 living_under_a_rock.sud
 mount_knottshurrs_puzzle.sud
+mystical_magical_except_one.sud
 mythereal_madness.sud
 my_awesome_sudoku.sud
 my_awesome_sudoku_2.sud

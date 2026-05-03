@@ -12,13 +12,13 @@ def list_files(directory, output_file):
 
 if __name__ == "__main__":
     # 1. list all files in data
-    files = list_files("./msmsudoku/data", "./msmsudoku/data_files.txt")
+    files = list_files("./data", "./data_files.txt")
 
     # 2. make a folder for each
-    os.makedirs("./msmsudoku/play", exist_ok=True)
+    os.makedirs("./play", exist_ok=True)
 
     for file_name in files:
-        folder_path = os.path.join("./msmsudoku/play", file_name.replace(".sud", ""))
+        folder_path = os.path.join("./play", file_name.replace(".sud", ""))
 
         # Delete if it already exists
         if os.path.exists(folder_path):
@@ -31,7 +31,7 @@ if __name__ == "__main__":
         dest_file = os.path.join(folder_path, "index.html")
 
         # Copy template
-        shutil.copyfile("./msmsudoku/play/template.html", dest_file)
+        shutil.copyfile("./play/template.html", dest_file)
 
         print(f"Created folder: {folder_path}")
 
