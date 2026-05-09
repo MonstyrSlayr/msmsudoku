@@ -27,6 +27,7 @@ my_awesome_sudoku.sud
 my_awesome_sudoku_2.sud
 obscene_oddballs.sud
 one_of_my_favorites_not_the_pfp_one_thatd_be_too_easy.sud
+oops_all_ethereals.sud
 paironormal_activity.sud
 players_achievements.sud
 rarity_nexus.sud
