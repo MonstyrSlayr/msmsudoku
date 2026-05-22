@@ -1,8 +1,10 @@
+all_red.sud
 an_epic_epiphany.sud
 ausome.sud
 a_little_tune_up.sud
 beeyoot_tree_trials.sud
 birds_of_a_further.sud
+blackgrey_like_idk.sud
 bossy_bonanza.sud
 bountiful_botanists.sud
 clock_tower.sud
@@ -16,12 +18,16 @@ forest_of_illusion.sud
 furnoss_fury.sud
 furry_friends.sud
 greedy_statues.sud
+green_dreams.sud
+hello_yellows.sud
 hey_wait_a_minute.sud
 inventory_madness.sud
+i_love_the_purple_one.sud
 i_made_a_sudoku.sud
 know_your_monsters_likes.sud
 larvaluss_puzzle.sud
 living_under_a_rock.sud
+made_purely_based_on_vibes.sud
 modern_monsters.sud
 mount_knottshurrs_puzzle.sud
 mystical_magical_except_one.sud
@@ -32,8 +38,10 @@ newbie_nightmare.sud
 obscene_oddballs.sud
 one_of_my_favorites_not_the_pfp_one_thatd_be_too_easy.sud
 oops_all_ethereals.sud
+oranges_for_days.sud
 paironormal_activity.sud
 players_achievements.sud
+purple_like_teh_rdm.sud
 rarity_nexus.sud
 really_freaking_awesome_woah.sud
 release_me.sud
@@ -42,6 +50,8 @@ shadow_insanity.sud
 sick_percussionists.sud
 silly_sudoku_thing.sud
 silly_thing_hihi.sud
+singing_the_blues.sud
 size_diff.sud
 the_first_sudoku.sud
+white_like_snow.sud
 wink.sud

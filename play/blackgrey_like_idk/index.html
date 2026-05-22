@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="../style.css">
+    <link rel="stylesheet" type="text/css" href="../../style.css">
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
@@ -14,14 +14,14 @@
     <meta name="keywords" content="MSM, My Singing Monsters, Sudoku, My Singing Monsters Sudoku">
     <meta name="author" content="MonstyrSlayr">
 
-    <meta property="og:url" content="https://monstyrslayr.github.io/msmsudoku/featured"/>
+    <meta property="og:url" content="https://monstyrslayr.github.io/msmsudoku/browse"/>
     <meta property="og:title" content="MSM Sudoku"/>
     <meta property="og:description" content="Play a My Singing Monsters Sudoku!"/>
     <meta property="og:image" content="https://raw.githubusercontent.com/MonstyrSlayr/monstyrslayr.github.io/main/img/msmSudoku.png"/>
     <meta property="og:type" content="website"/>
     <meta property="og:locale" content="en_US"/>
 
-    <meta property="twitter:url" content="https://monstyrslayr.github.io/msmsudoku/featured">
+    <meta property="twitter:url" content="https://monstyrslayr.github.io/msmsudoku/browse">
     <meta property="twitter:title" content="MSM Sudoku">
     <meta property="twitter:card" content="summary_large_image">
     <meta property="twitter:description" content="Play a My Singing Monsters Sudoku!"/>
@@ -33,15 +33,8 @@
     <div class="flow">
 
         <h1>MSM Sudoku - PLAY</h1>
-        <p>This page is intended to take a .sud file.</p>
-        <p>For more accessible sudokus, please scroll down.</p>
 
-        <div id="dropZone">
-            Drag and drop a file here, or click to upload.
-            <input type="file" id="fileInput" accept=".sud"/>
-        </div>
-
-        <div class="textFields gone" id="textFields">
+        <div class="textFields">
             <h2 id="sudokuName">Loading your sudoku...</h2>
             <h3 id="sudokuAuthor">Please wait while things load</h3>
             <h3 id="sudokuFriendCode">Thank you for playing :)</h3>
@@ -49,7 +42,7 @@
             <h3>Difficulty: <span id="difficultyNumber">?</span></h3>
         </div>
 
-        <div class="sudokuWrapper gone" id="mainSudoku">
+        <div class="sudokuWrapper">
             <div class="sudoku">
                 <div id="squareNN"></div>
                 <div id="squareN0">
@@ -157,7 +150,7 @@
             </div>
         </div>
 
-        <div class="finalizer gone" id="daFinalizer">
+        <div class="finalizer">
             <p id="validateFlavor" class="gone">Make sure the solution is correct before submitting!</p>
             <button id="validateButton">Submit!</button>
         </div>
@@ -264,13 +257,16 @@
         </div>
 
         <div class="linkList">
-            <a href="../featured">
+            <a href="../../featured">
                 Play the featured MSM Sudoku!
             </a>
-            <a href="../browse">
+            <a href="../../browse">
                 Browse some cool MSM Sudokus!
             </a>
-            <a href="../make">
+            <a href="../../play">
+                Play a downloaded sudoku!
+            </a>
+            <a href="../../make">
                 Make your own MSM Sudoku!
             </a>
         </div>
@@ -286,7 +282,7 @@
 
     <div id="tooltip">lil tooltip</div>
 
-    <script type="module" src="../script.js"></script>
-    <script type="module" src="./play.js"></script>
+    <script type="module" src="../../script.js"></script>
+    <script type="module" src="../template.js"></script>
 </body>
 </html>

@@ -13,6 +13,10 @@ body
 {
     background-color: rgb(25, 26, 42);
     color: white;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 h1
@@ -486,6 +490,7 @@ select:hover
 #dropZone
 {
     border: 2px dashed #ccc;
+    border-radius: 0.5em;
     padding: 5em;
     text-align: center;
     cursor: pointer;
