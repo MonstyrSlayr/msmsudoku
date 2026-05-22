@@ -293,7 +293,7 @@ if __name__ == "__main__":
         replaced = replaced.replace("{author}", str(da_json["metadata"]["author"]))
         replaced = replaced.replace("{friendCode}", str(da_json["metadata"]["friendCode"]))
         replaced = replaced.replace("{img}", str(da_json["metadata"]["img"]))
-        replaced = replaced.replace("{filename}", file_name)
+        replaced = replaced.replace("{filename}", file_name.replace(".sud", ""))
 
         # Always save as index.html
         dest_file = os.path.join(folder_path, "index.html")
