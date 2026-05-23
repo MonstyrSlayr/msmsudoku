@@ -22,6 +22,8 @@ async function loadSudokus()
                 cols: json.conditionalCols,
                 filename
             });
+
+            renderSudokus(sudokus);
         }
         catch (e)
         {
@@ -166,6 +168,7 @@ function applyFilters(sudokus)
 (async () =>
 {
     const sudokus = await loadSudokus();
+    // one more render in case ordering shenanigans ensue
     renderSudokus(sudokus);
     document.getElementById("loading").classList.add("gone");
 
