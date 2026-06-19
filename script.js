@@ -330,7 +330,7 @@ export const rarityConditionals = [];
 rarityConditionals.push(new RarityConditional(RARITY.COMMON, "This monster is COMMON. Does not include Celestials or Paironormals. All Titansouls are COMMON."));
 rarityConditionals.push(new RarityConditional(RARITY.RARE, "This monster is RARE. Does not include Celestials or Paironormals."));
 rarityConditionals.push(new RarityConditional(RARITY.EPIC, "This monster is EPIC. Does not include Celestials or Paironormals."));
-rarityConditionals.push(new RarityConditional(RARITY.CHILD, "This monster is a CHILD. Only includes Celestials."));
+rarityConditionals.push(new RarityConditional(RARITY.YOUNG, "This monster is YOUNG. Only includes Celestials."));
 rarityConditionals.push(new RarityConditional(RARITY.ADULT, "This monster is an ADULT. Only includes Celestials."));
 rarityConditionals.push(new RarityConditional(RARITY.MAJOR, "This monster is MAJOR. Only includes Paironormals."));
 rarityConditionals.push(new RarityConditional(RARITY.MINOR, "This monster is MINOR. Only includes Paironormals."));
