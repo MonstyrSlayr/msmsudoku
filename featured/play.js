@@ -313,6 +313,8 @@ validateButton.addEventListener("click", function()
             const daLabel = smonsterInputs[i];
             const daImage = smonsterImages[i];
 
+            // error handling
+            if (daMonsterData.rarity == "Child") daMonsterData.rarity = "Young";
             const daMonster = monsters.find(monster => monster.rarity == daMonsterData.rarity && monster.elementString == daMonsterData.elementString);
 
             if (daMonster)

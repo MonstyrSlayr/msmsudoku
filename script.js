@@ -492,6 +492,9 @@ yearConditionals.sort((a, b) => a.year - b.year);
 
 export function getConditionalById(id)
 {
+    // error handling
+    if (id == "rChild") id = "rYoung";
+    
     for (const conditional of allConditionals)
     {
         if (conditional.id == id) // YESSSSS!!!!!
