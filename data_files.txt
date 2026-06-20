@@ -52,6 +52,7 @@ silly_sudoku_thing.sud
 silly_thing_hihi.sud
 singing_the_blues.sud
 size_diff.sud
+skapadawappa.sud
 the_first_sudoku.sud
 white_like_snow.sud
 wink.sud
