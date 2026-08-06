@@ -327,13 +327,17 @@ function getMonsterByName(name)
 }
 
 export const rarityConditionals = [];
-rarityConditionals.push(new RarityConditional(RARITY.COMMON, "This monster is COMMON. Does not include Celestials or Paironormals. All Titansouls are COMMON."));
-rarityConditionals.push(new RarityConditional(RARITY.RARE, "This monster is RARE. Does not include Celestials or Paironormals."));
-rarityConditionals.push(new RarityConditional(RARITY.EPIC, "This monster is EPIC. Does not include Celestials or Paironormals."));
+rarityConditionals.push(new RarityConditional(RARITY.COMMON, "This monster is COMMON. Does not include Celestials, Paironormals, or Dipsters. All Titansouls are COMMON."));
+rarityConditionals.push(new RarityConditional(RARITY.RARE, "This monster is RARE. Does not include Celestials, Paironormals, or Dipsters."));
+rarityConditionals.push(new RarityConditional(RARITY.EPIC, "This monster is EPIC. Does not include Celestials, Paironormals, or Dipsters."));
 rarityConditionals.push(new RarityConditional(RARITY.YOUNG, "This monster is YOUNG. Only includes Celestials."));
 rarityConditionals.push(new RarityConditional(RARITY.ADULT, "This monster is an ADULT. Only includes Celestials."));
 rarityConditionals.push(new RarityConditional(RARITY.MAJOR, "This monster is MAJOR. Only includes Paironormals."));
 rarityConditionals.push(new RarityConditional(RARITY.MINOR, "This monster is MINOR. Only includes Paironormals."));
+rarityConditionals.push(new RarityConditional(RARITY.TONAL, "This monster is TONAL. Only includes Dipsters."));
+rarityConditionals.push(new RarityConditional(RARITY.ELEMENTAL, "This monster is ELEMENTAL. Only includes Dipsters."));
+rarityConditionals.push(new RarityConditional(RARITY.ROYAL, "This monster is ROYAL. Only includes Dipsters."));
+rarityConditionals.push(new RarityConditional(RARITY.ASTRAL, "This monster is ASTRAL. Only includes Dipsters."));
 
 export const classConditionals = [];
 classConditionals.push(new ClassConditional([CLASS.NATURAL], "NATURAL", "This monster is NATURAL. This monster only has Natural elements, excluding Fire."));
