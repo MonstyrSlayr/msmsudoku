@@ -1,8 +1,9 @@
-import { Monster, getClasses, getRarities, getMonsters, getElements, getIslands } from "https://monstyrslayr.github.io/msmTools/monsters.js";
+import { Monster, getClasses, getRarities, getMonsters, getElements, getIslands, getActs } from "https://monstyrslayr.github.io/msmTools/monsters.js";
 
 const RARITY = getRarities();
 const CLASS = getClasses();
 const islands = getIslands();
+const acts = getActs();
 const elementSigils = getElements();
 
 const allConditionals = [];
@@ -72,6 +73,18 @@ class IslandConditional extends Conditional // i
     {
         super(function (monster = Monster) { return monster.islands.has(island) }, "This monster is on " + island.name.toUpperCase() + ".", "i" + island.codename, "Is on " + island.name.toUpperCase(), "Is not on " + island.name.toUpperCase());
         this.island = island;
+    }
+}
+
+class ActConditional extends Conditional // a
+{
+    act;
+    weight = 0.15;
+
+    constructor (act)
+    {
+        super(function (monster = Monster) { return monster.acts.has(act) }, "This monster is in " + act.name.toUpperCase() + ".", "a" + act.name, "Is in " + act.name.toUpperCase(), "Is not in " + act.name.toUpperCase());
+        this.act = act;
     }
 }
 
@@ -361,6 +374,12 @@ export const islandConditionals = [];
 islands.forEach(island =>
 {
     islandConditionals.push(new IslandConditional(island));
+});
+
+export const actConditionals = [];
+acts.forEach(act =>
+{
+    actConditionals.push(new ActConditional(act));
 });
 
 export const elementConditionals = [];

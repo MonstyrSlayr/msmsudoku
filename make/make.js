@@ -1,4 +1,4 @@
-import { classConditionals, countMonstersInConditionals, defaultConditional, rarityConditionals, monsters, islandConditionals, elementConditionals, likeConditionals, countConditionals, likedByConditionals, eggConditionals, reqConditionals, sizeConditionals, bedsConditionals, levelConditionals, timeConditionals, firstConditionals, encryptAndDownload, gaugeSudokuDifficulty, yearConditionals } from "../script.js";
+import { classConditionals, countMonstersInConditionals, defaultConditional, rarityConditionals, monsters, islandConditionals, actConditionals, elementConditionals, likeConditionals, countConditionals, likedByConditionals, eggConditionals, reqConditionals, sizeConditionals, bedsConditionals, levelConditionals, timeConditionals, firstConditionals, encryptAndDownload, gaugeSudokuDifficulty, yearConditionals } from "../script.js";
 
 const dropdownRows =
 [
@@ -341,6 +341,23 @@ for (const daDiv of document.getElementsByClassName("conditionalDropdown"))
                     for (const islandConditional of islandConditionals)
                     {
                         islandContent.appendChild(makeSelectableConditional(islandConditional, islandConditional.island.name.toUpperCase()));
+                    }
+            
+            const actDropdown = document.createElement("li");
+            daDropdownList.appendChild(actDropdown);
+
+                const actButton = document.createElement("button");
+                actButton.textContent = "ACT ᐳ";
+                actButton.classList.add("dropdownButton");
+                actDropdown.appendChild(actButton);
+
+                const actContent = document.createElement("ul");
+                actContent.classList.add("dropdownContent");
+                actDropdown.appendChild(actContent);
+
+                    for (const actConditional of actConditionals)
+                    {
+                        actContent.appendChild(makeSelectableConditional(actConditional, actConditional.act.name.toUpperCase()));
                     }
             
             const elementDropdown = document.createElement("li");
