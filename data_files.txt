@@ -10,6 +10,7 @@ bountiful_botanists.sud
 clock_tower.sud
 cool_puzzle.sud
 deep_sea_divers.sud
+do_not_shovel_snow.sud
 egg_zapping_enigma.sud
 everyone_loves_a_squeed.sud
 favourites_farvuloit.sud
@@ -28,6 +29,7 @@ know_your_monsters_likes.sud
 larvaluss_puzzle.sud
 living_under_a_rock.sud
 made_purely_based_on_vibes.sud
+mistress_of_the_dark.sud
 modern_monsters.sud
 mount_knottshurrs_puzzle.sud
 mystical_magical_except_one.sud
@@ -52,6 +54,7 @@ silly_sudoku_thing.sud
 silly_thing_hihi.sud
 singing_the_blues.sud
 size_diff.sud
+skapadawappa.sud
 the_first_sudoku.sud
 white_like_snow.sud
 wink.sud
